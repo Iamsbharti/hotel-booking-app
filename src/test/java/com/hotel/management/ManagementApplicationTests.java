@@ -1,13 +1,18 @@
 package com.hotel.management;
 
 import org.junit.jupiter.api.Test;
+import org.springframework.boot.SpringApplication;
+import org.springframework.boot.autoconfigure.SpringBootApplication;
 import org.springframework.boot.test.context.SpringBootTest;
 
-@SpringBootTest
-class ManagementApplicationTests {
+import javax.swing.*;
 
-	@Test
-	void contextLoads() {
+import static org.assertj.core.api.AssertionsForClassTypes.assertThat;
+
+@SpringBootApplication
+public class ManagementApplicationTests {
+
+	public static void main(String[] args){
+		SpringApplication.run(ManagementApplicationTests.class,args);
 	}
-
 }

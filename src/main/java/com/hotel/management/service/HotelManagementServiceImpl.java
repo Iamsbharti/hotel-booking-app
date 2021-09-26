@@ -39,7 +39,6 @@ public class HotelManagementServiceImpl implements HotelManagementService{
 
         // get all bookings
         List<Dates> allBookingDates = datesRepository.findAll();
-        List<Booking> allBookings = bookingRepository.findAll();
         // get all rooms
         List<Room> allRooms = roomRepository.findAll();
 
